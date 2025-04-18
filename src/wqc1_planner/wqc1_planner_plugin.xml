@@ -1,0 +1,7 @@
+<library path="lib/libmy_planner">
+    <class name ="wqc1_planner" type="wqc1_planner::Wqc1Planner" base_class_type="nav_core::BaseLoaclPlanner">
+        <description>
+            我的规划器
+        </description>
+    </class>
+</library>
