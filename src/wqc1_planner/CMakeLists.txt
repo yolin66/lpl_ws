@@ -125,7 +125,7 @@ add_library(wqc1_planner
   src/wqc1_planner.cpp
 )
 
-add_dependencies(wqc1_planner ${${wqc1_planner}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+add_dependencies(wqc1_planner ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 
 target_link_libraries(wqc1_planner
   ${catkin_LIBRARIES}
